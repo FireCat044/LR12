@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+}
+
+#app {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 500px; /* Задайте максимальну ширину застосунку */
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь для стилю */
+}
+
+.card-img {
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-img:hover {
+    transform: scale(1.1);
+}
+
+#translation-input {
+    width: 70%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+#check-btn {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#check-btn:hover {
+    background-color: #45a049;
+}
+
+#progress, #score {
+    margin-top: 10px;
+}
